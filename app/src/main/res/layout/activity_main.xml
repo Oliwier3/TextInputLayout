@@ -39,7 +39,6 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/Haslo"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +51,6 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/PHaslo"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -77,7 +75,7 @@
         app:layout_constraintVertical_bias="0.155" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText3"
+        android:id="@+id/Haslo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Podaj Hasło"
@@ -89,6 +87,7 @@
         app:layout_constraintVertical_bias="0.29" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/PHaslo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Potwierdź Hasło"
