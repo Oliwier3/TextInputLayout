@@ -3,6 +3,7 @@ package com.example.textinputlayout
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import com.google.android.material.textfield.TextInputLayout
 
 class MainActivity : AppCompatActivity() {
@@ -14,7 +15,9 @@ class MainActivity : AppCompatActivity() {
             val haslo1 = findViewById<TextInputLayout>(R.id.Haslo)
             val haslo2 = findViewById<TextInputLayout>(R.id.PHaslo)
                 if(haslo1 == haslo2)
-
+                    findViewById<TextView>(R.id.odp).text = "Hasła się zgadzają"
+                else
+                    findViewById<TextView>(R.id.odp).text = "Hasła się nie zgadzają"
         }
 
     }
