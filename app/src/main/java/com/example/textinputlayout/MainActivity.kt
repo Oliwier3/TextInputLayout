@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //  Autor: Oliwier Krauza
+
         findViewById<Button>(R.id.Spr).setOnClickListener {
             val haslo1 = findViewById<TextInputEditText>(R.id.Haslo).text.toString()
             val haslo2 = findViewById<TextInputEditText>(R.id.HasloP).text.toString()
