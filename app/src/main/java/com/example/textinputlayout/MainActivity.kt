@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.Spr).setOnClickListener {
-            val haslo1 = findViewById<TextInputEditText>(R.id.Haslo).toString()
-            val haslo2 = findViewById<TextInputEditText>(R.id.HasloP).toString()
+            val haslo1 = findViewById<TextInputEditText>(R.id.Haslo).text.toString()
+            val haslo2 = findViewById<TextInputEditText>(R.id.HasloP).text.toString()
                 if(haslo1 == haslo2)
                     findViewById<TextView>(R.id.odp).text = "Hasła się zgadzają"
                 else
